@@ -14,8 +14,7 @@ This Next.js web application leverages Google Generative AI to evaluate code sni
 ### Technologies
 
 * **Next.js:** React framework for building web applications.
-* **Google Generative AI:** Powerful language model for code analysis.
-* **[Other dependencies]** List any additional libraries used.
+* **Google Generative AI:**  Generative AI model for code analysis.
 
 ### Installation
 
@@ -28,8 +27,8 @@ This Next.js web application leverages Google Generative AI to evaluate code sni
    cd code_evaluator
    npm install
    ```
-3. Set up environment variables (replace placeholders):
-   * **GOOGLE_GENERATIVE_AI_API_KEY:** Your Google Generative AI API key.
+3. Set up environment variables :
+   * **GEMINI_API_KEY:** Your Google GEMINI API key.
 
 ### Development
 
@@ -41,7 +40,7 @@ npm run dev
 
 ### Usage
 
-1. Access the web application.
+1. Access the web application. [Demo Link](https://code-evaluator-one.vercel.app/)
 2. Paste or write your code snippet.
 3. Click the "Evaluate" button.
 4. View the results, including complexity analysis and optimization suggestions.
@@ -62,5 +61,7 @@ npm run dev
 
 * **API Usage:** Be mindful of Google Generative AI API usage limits and costs.
 * **Security:** Consider security measures to protect user code and API keys.
+
+If you found this project helpful, please give it a star on GitHub!
 
 
