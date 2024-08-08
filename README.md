@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Code Evaluator Webapp
 
-## Getting Started
+### Overview
 
-First, run the development server:
+This Next.js web application leverages Google Generative AI to evaluate code snippets, providing insights into time and space complexity. It also offers suggestions for code optimization.
+
+### Features
+
+* **Code Evaluation:** Analyzes submitted code snippets.
+* **Complexity Analysis:** Determines time and space complexity.
+* **Optimization Suggestions:** Provides recommendations to improve code efficiency.
+* **User-Friendly Interface:** Intuitive web-based platform for easy interaction.
+
+### Technologies
+
+* **Next.js:** React framework for building web applications.
+* **Google Generative AI:** Powerful language model for code analysis.
+* **[Other dependencies]** List any additional libraries used.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sagarprince/code_evaluator
+   ```
+2. Install dependencies:
+   ```bash
+   cd code_evaluator
+   npm install
+   ```
+3. Set up environment variables (replace placeholders):
+   * **GOOGLE_GENERATIVE_AI_API_KEY:** Your Google Generative AI API key.
+
+### Development
+
+To start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Access the web application.
+2. Paste or write your code snippet.
+3. Click the "Evaluate" button.
+4. View the results, including complexity analysis and optimization suggestions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Contributing
 
-## Learn More
+* Fork the repository.
+* Create a new branch for your feature.
+* Commit your changes.
+* Push to your branch.
+* Submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+### License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Specify the license for your project, e.g., MIT]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Additional Notes
 
-## Deploy on Vercel
+* **API Usage:** Be mindful of Google Generative AI API usage limits and costs.
+* **Security:** Consider security measures to protect user code and API keys.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
